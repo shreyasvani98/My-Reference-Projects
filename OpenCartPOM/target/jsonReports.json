@@ -1,0 +1,2022 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User is on home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 212400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has valid URL of website",
+            "match": {
+              "location": "PhoneNavigation.user_has_valid_URL_of_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2455745900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters URL of website in Google Chrome browser \u0026 press enter",
+            "match": {
+              "location": "PhoneNavigation.user_enters_URL_of_website_in_Google_Chrome_browser_press_enter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56227700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be on home page",
+            "match": {
+              "location": "PhoneNavigation.user_should_be_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-16T17:49:24.397Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4318672200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "verify that user is able to view left \u0026 right arrow icons after hovering mouse over the slideshow of product banners \u0026 browse product banners",
+        "description": "",
+        "id": "browse-functionality-of-product-banners;verify-that-user-is-able-to-view-left-\u0026-right-arrow-icons-after-hovering-mouse-over-the-slideshow-of-product-banners-\u0026-browse-product-banners",
+        "after": [
+          {
+            "result": {
+              "duration": 3885914100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2181311200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user hovers mouse over slideshow of product banners",
+            "match": {
+              "location": "BrowseBanner.user_hovers_mouse_over_slideshow_of_product_banners()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5002370400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should be able to view left \u0026 right arrow icons in left \u0026 right sections in slideshow respectively",
+            "match": {
+              "location": "BrowseBanner.user_should_be_able_to_view_left_right_arrow_icons_in_left_right_sections_in_slideshow_respectively()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5145931800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on left arrow icon in left section in slideshow of product banners",
+            "match": {
+              "location": "BrowseBanner.user_clicks_on_left_arrow_icon_in_left_section_in_slideshow_of_product_banners()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 376063300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should be able to view product banner behind the current product banner in slideshow of product banners",
+            "match": {
+              "location": "BrowseBanner.user_should_be_able_to_view_product_banner_behind_the_current_product_banner_in_slideshow_of_product_banners()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5071393200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on right arrow icon in right section in slideshow of product banners",
+            "match": {
+              "location": "BrowseBanner.user_clicks_on_right_arrow_icon_in_right_section_in_slideshow_of_product_banners()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 314762700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should be able to view product banner ahead of the current product banner in slideshow of product banners",
+            "match": {
+              "location": "BrowseBanner.user_should_be_able_to_view_product_banner_ahead_of_the_current_product_banner_in_slideshow_of_product_banners()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestOne"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is on home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 100600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has valid URL of website",
+            "match": {
+              "location": "PhoneNavigation.user_has_valid_URL_of_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2246678400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters URL of website in Google Chrome browser \u0026 press enter",
+            "match": {
+              "location": "PhoneNavigation.user_enters_URL_of_website_in_Google_Chrome_browser_press_enter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5810400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be on home page",
+            "match": {
+              "location": "PhoneNavigation.user_should_be_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-16T17:49:53.213Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1555719500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "verify that user is able to browse different product banners after clicking on carousel-indicators that is filled circles down the slideshow of product banners",
+        "description": "",
+        "id": "browse-functionality-of-product-banners;verify-that-user-is-able-to-browse-different-product-banners-after-clicking-on-carousel-indicators-that-is-filled-circles-down-the-slideshow-of-product-banners",
+        "after": [
+          {
+            "result": {
+              "duration": 3862785100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5112169600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicks on second carousel-indicator that is second filled circle down the slideshow of product banners",
+            "match": {
+              "location": "BrowseBanner.user_clicks_on_second_carousel_indicator_that_is_second_filled_circle_down_the_slideshow_of_product_banners()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 176800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should be able to browse second product banner",
+            "match": {
+              "location": "BrowseBanner.user_should_be_able_to_browse_second_product_banner()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3419608000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks on first carousel-indicator that is first filled circle down the slideshow of product banners",
+            "match": {
+              "location": "BrowseBanner.user_clicks_on_first_carousel_indicator_that_is_first_filled_circle_down_the_slideshow_of_product_banners()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user should be able to browse first product banner",
+            "match": {
+              "location": "BrowseBanner.user_should_be_able_to_browse_first_product_banner()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestOne"
+          }
+        ]
+      }
+    ],
+    "name": "Browse functionality of product banners",
+    "description": "Description: This feature will check whether a user is able to browse product banners in slideshow",
+    "id": "browse-functionality-of-product-banners",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/BrowseBanner.feature",
+    "tags": [
+      {
+        "name": "@TestOne",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User is on home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 103300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has valid URL of website",
+            "match": {
+              "location": "PhoneNavigation.user_has_valid_URL_of_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1669292800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters URL of website in Google Chrome browser \u0026 press enter",
+            "match": {
+              "location": "PhoneNavigation.user_enters_URL_of_website_in_Google_Chrome_browser_press_enter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6247300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be on home page",
+            "match": {
+              "location": "PhoneNavigation.user_should_be_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-16T17:50:09.424Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1626013300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "verify that user should be able to view phone icon, My Account, Wish List, Shopping Cart \u0026 Checkout in header",
+        "description": "",
+        "id": "links-of-phone-icon--my-account--wish-list--shopping-cart-\u0026-checkout-in-header;verify-that-user-should-be-able-to-view-phone-icon--my-account--wish-list--shopping-cart-\u0026-checkout-in-header",
+        "after": [
+          {
+            "result": {
+              "duration": 3846586600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 71429300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user looks for phone icon in header",
+            "match": {
+              "location": "Header.user_looks_for_phone_icon_in_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should find phone icon in header",
+            "match": {
+              "location": "Header.user_should_find_phone_icon_in_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72275900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user looks for My Account dropdown list in header",
+            "match": {
+              "location": "Header.user_looks_for_My_account_dropdown_list_in_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should find My Account dropdown list in header",
+            "match": {
+              "location": "Header.user_should_find_My_Account_dropdown_list_in_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60694300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user looks for Wish List option in header",
+            "match": {
+              "location": "Header.user_looks_for_Wish_List_option_in_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should find Wish List option in header",
+            "match": {
+              "location": "Header.user_should_find_Wish_List_option_in_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58514900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user looks for Shopping Cart option in header",
+            "match": {
+              "location": "Header.user_looks_for_Shopping_Cart_option_in_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should find Shopping Cart option in header",
+            "match": {
+              "location": "Header.user_should_find_Shopping_Cart_option_in_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47527100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user looks for Checkout option in header",
+            "match": {
+              "location": "Header.user_looks_for_Checkout_option_in_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5334350300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should find Checkout option in header",
+            "match": {
+              "location": "Header.user_should_find_Checkout_option_in_header()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestTwo"
+          }
+        ]
+      }
+    ],
+    "name": "Links of phone icon, My Account, Wish List, Shopping Cart \u0026 Checkout in header",
+    "description": "Description: This feature will test whether mentioned elements present or not on home page",
+    "id": "links-of-phone-icon--my-account--wish-list--shopping-cart-\u0026-checkout-in-header",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Header.feature",
+    "tags": [
+      {
+        "name": "@TestTwo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User is not logged in \u0026 have opened My Account dropdown list from header",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 91200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has valid URL of website",
+            "match": {
+              "location": "PhoneNavigation.user_has_valid_URL_of_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2140382400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters URL of website in Google Chrome browser \u0026 press enter",
+            "match": {
+              "location": "PhoneNavigation.user_enters_URL_of_website_in_Google_Chrome_browser_press_enter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6885100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be on home page \u0026 user has not logged in",
+            "match": {
+              "location": "LoginRegisterNavigate.user_should_be_on_home_page_user_has_not_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 96077100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on My Account dropdown list from header",
+            "match": {
+              "location": "LoginRegisterNavigate.user_clicks_on_My_Account_dropdown_list_from_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130989400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should able to see Login \u0026 Register options in dropdown list",
+            "match": {
+              "location": "LoginRegisterNavigate.user_should_able_to_see_Login_Register_options_in_dropdown_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-16T17:50:22.220Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1553981000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "verify that user should be able to navigate to Register page \u0026 Login page after clicking on Register \u0026 Login options from My Account dropdown list respectively",
+        "description": "",
+        "id": "navigation-functionality-of-login-\u0026-register-of-my-account-dropdown-list;verify-that-user-should-be-able-to-navigate-to-register-page-\u0026-login-page-after-clicking-on-register-\u0026-login-options-from-my-account-dropdown-list-respectively",
+        "after": [
+          {
+            "result": {
+              "duration": 3802857700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1542707800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on Register option from My Account dropdown list",
+            "match": {
+              "location": "LoginRegisterNavigate.user_clicks_on_Register_option_from_My_Account_dropdown_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 216060100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should be navigated to Register Account page",
+            "match": {
+              "location": "LoginRegisterNavigate.user_should_be_navigated_to_Register_Account_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestThree"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is not logged in \u0026 have opened My Account dropdown list from header",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 101600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has valid URL of website",
+            "match": {
+              "location": "PhoneNavigation.user_has_valid_URL_of_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2196570500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters URL of website in Google Chrome browser \u0026 press enter",
+            "match": {
+              "location": "PhoneNavigation.user_enters_URL_of_website_in_Google_Chrome_browser_press_enter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6935000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be on home page \u0026 user has not logged in",
+            "match": {
+              "location": "LoginRegisterNavigate.user_should_be_on_home_page_user_has_not_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111733000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on My Account dropdown list from header",
+            "match": {
+              "location": "LoginRegisterNavigate.user_clicks_on_My_Account_dropdown_list_from_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123770400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should able to see Login \u0026 Register options in dropdown list",
+            "match": {
+              "location": "LoginRegisterNavigate.user_should_able_to_see_Login_Register_options_in_dropdown_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-16T17:50:31.714Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1510328300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "verify that user should be able to navigate to Account Login webpage after clicking on Login option from My Account dropdown list",
+        "description": "",
+        "id": "navigation-functionality-of-login-\u0026-register-of-my-account-dropdown-list;verify-that-user-should-be-able-to-navigate-to-account-login-webpage-after-clicking-on-login-option-from-my-account-dropdown-list",
+        "after": [
+          {
+            "result": {
+              "duration": 3802912500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1276784900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on Login option from My Account dropdown list",
+            "match": {
+              "location": "LoginRegisterNavigate.user_clicks_on_Login_option_from_My_Account_dropdown_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 287709000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should be navigated to Account Login page",
+            "match": {
+              "location": "LoginRegisterNavigate.user_should_be_navigated_to_Account_Login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestThree"
+          }
+        ]
+      }
+    ],
+    "name": "Navigation functionality of Login \u0026 Register of My Account dropdown list",
+    "description": "Description: This feature will check that whether a user is able to navigate to Login page \u0026 Register page",
+    "id": "navigation-functionality-of-login-\u0026-register-of-my-account-dropdown-list",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/LoginRegisterNavigate.feature",
+    "tags": [
+      {
+        "name": "@TestThree",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User is logged in \u0026 have opened My Account dropdown list from header",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 102000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has valid URL of website",
+            "match": {
+              "location": "PhoneNavigation.user_has_valid_URL_of_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2119183200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters URL of website in Google Chrome browser \u0026 press enter",
+            "match": {
+              "location": "PhoneNavigation.user_enters_URL_of_website_in_Google_Chrome_browser_press_enter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5952800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be on home page",
+            "match": {
+              "location": "PhoneNavigation.user_should_be_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 94795100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on My Account dropdown list from header",
+            "match": {
+              "location": "LoginRegisterNavigate.user_clicks_on_My_Account_dropdown_list_from_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64410100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should able to see Login option in dropdown list",
+            "match": {
+              "location": "MyAccountNavigate.user_should_able_to_see_Login_option_in_dropdown_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1335092200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on Login option from dropdown list",
+            "match": {
+              "location": "MyAccountNavigate.user_clicks_on_Login_option_from_dropdown_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 597645200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters login credentials",
+            "match": {
+              "location": "MyAccountNavigate.user_enters_login_credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "uname",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "suru@gmail30.com",
+                  "1122334455"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2359460900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicks on Login button",
+            "match": {
+              "location": "MyAccountNavigate.clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7071100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should be logged in",
+            "match": {
+              "location": "MyAccountNavigate.user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65334400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on My Account dropdown list from header",
+            "match": {
+              "location": "LoginRegisterNavigate.user_clicks_on_My_Account_dropdown_list_from_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5379248100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should able to view My Account, Order history, Transations, Downloads, Logout options in dropdown list",
+            "match": {
+              "location": "MyAccountNavigate.user_should_able_to_view_My_Account_Order_history_Transations_Downloads_Logout_options_in_dropdown_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-16T17:50:41.037Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1611698200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "verify that user should be able to navigate to correct webpage after clicking on that particular option from dropdown list",
+        "description": "",
+        "id": "navigation-funtionality-of-my-account--order-history--transations--downloads--logout-of-my-account-dropdown-list;verify-that-user-should-be-able-to-navigate-to-correct-webpage-after-clicking-on-that-particular-option-from-dropdown-list",
+        "after": [
+          {
+            "result": {
+              "duration": 3884699300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1300474300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicks on My Account option from My Account dropdown list",
+            "match": {
+              "location": "MyAccountNavigate.user_clicks_on_My_Account_option_from_My_Account_dropdown_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5217444700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should be navigated to My Account webpage",
+            "match": {
+              "location": "MyAccountNavigate.user_should_be_navigated_to_My_Account_webpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 70514800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks on My Account dropdown list from header",
+            "match": {
+              "location": "LoginRegisterNavigate.user_clicks_on_My_Account_dropdown_list_from_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5195193500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user should able to view options in dropdown list",
+            "match": {
+              "location": "MyAccountNavigate.user_should_able_to_view_options_in_dropdown_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1394068500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user clicks on Order History option from My Account dropdown list",
+            "match": {
+              "location": "MyAccountNavigate.user_clicks_on_Order_History_option_from_My_Account_dropdown_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5201671200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user should be navigated to Order History webpage",
+            "match": {
+              "location": "MyAccountNavigate.user_should_be_navigated_to_Order_History_webpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69543000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user clicks on My Account dropdown list from header",
+            "match": {
+              "location": "LoginRegisterNavigate.user_clicks_on_My_Account_dropdown_list_from_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5189644800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user should able to view options in dropdown list",
+            "match": {
+              "location": "MyAccountNavigate.user_should_able_to_view_options_in_dropdown_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1286947300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user clicks on Transactions option from My Account dropdown list",
+            "match": {
+              "location": "MyAccountNavigate.user_clicks_on_Transactions_option_from_My_Account_dropdown_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5225800600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user should be navigated to Your Transactions webpage",
+            "match": {
+              "location": "MyAccountNavigate.user_should_be_navigated_to_Your_Transactions_webpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69617300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user clicks on My Account dropdown list from header",
+            "match": {
+              "location": "LoginRegisterNavigate.user_clicks_on_My_Account_dropdown_list_from_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5182197800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user should able to view options in dropdown list",
+            "match": {
+              "location": "MyAccountNavigate.user_should_able_to_view_options_in_dropdown_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1336594700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user clicks on Downloads option from My Account dropdown list",
+            "match": {
+              "location": "MyAccountNavigate.user_clicks_on_Downloads_option_from_My_Account_dropdown_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5187297700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user should be navigated to Account Downloads webpage",
+            "match": {
+              "location": "MyAccountNavigate.user_should_be_navigated_to_Your_Account_Downloads_webpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71102600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user clicks on My Account dropdown list from header",
+            "match": {
+              "location": "LoginRegisterNavigate.user_clicks_on_My_Account_dropdown_list_from_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5185315800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user should able to view options in dropdown list",
+            "match": {
+              "location": "MyAccountNavigate.user_should_able_to_view_options_in_dropdown_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2202392400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user clicks on Logout option from My Account dropdown list",
+            "match": {
+              "location": "MyAccountNavigate.user_clicks_on_Logout_option_from_My_Account_dropdown_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5183286000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user should be navigated to Account Logout webpage",
+            "match": {
+              "location": "MyAccountNavigate.user_should_be_navigated_to_Account_Logout_webpage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestFour"
+          }
+        ]
+      }
+    ],
+    "name": "Navigation funtionality of My Account, Order history, Transations, Downloads, Logout of My Account dropdown list",
+    "description": "Description: This feature will check that whether a user is able to navigate to particular webpage",
+    "id": "navigation-funtionality-of-my-account--order-history--transations--downloads--logout-of-my-account-dropdown-list",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/MyAccountNavigate.feature",
+    "tags": [
+      {
+        "name": "@TestFour",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User is on home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 84300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has valid URL of website",
+            "match": {
+              "location": "PhoneNavigation.user_has_valid_URL_of_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1821058100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters URL of website in Google Chrome browser \u0026 press enter",
+            "match": {
+              "location": "PhoneNavigation.user_enters_URL_of_website_in_Google_Chrome_browser_press_enter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4843000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be on home page",
+            "match": {
+              "location": "PhoneNavigation.user_should_be_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-16T17:51:53.137Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1599881000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify that user should be able to navigate to Contact Us webpage after clicking on phone icon \u0026 phone number from header of home page",
+        "description": "",
+        "id": "navigation-functionality-of-phone-number-and-phone-icon;verify-that-user-should-be-able-to-navigate-to-contact-us-webpage-after-clicking-on-phone-icon-\u0026-phone-number-from-header-of-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 3774194200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1274936800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on phone icon from header",
+            "match": {
+              "location": "PhoneNavigation.user_clicks_on_phone_icon_from_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5249711200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be navigated to Contact us webpage after clicking on phone icon from header",
+            "match": {
+              "location": "PhoneNavigation.user_should_be_navigated_to_Contact_us_webpage_after_clicking_on_phone_icon_from_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1424724900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on logo of website that is Your Store",
+            "match": {
+              "location": "PhoneNavigation.user_clicks_on_logo_of_website_that_is_Your_Store()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4915200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is navigated to Home Page",
+            "match": {
+              "location": "PhoneNavigation.user_is_navigated_to_Home_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 271100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on phone number from header",
+            "match": {
+              "location": "PhoneNavigation.user_clicks_on_phone_number_from_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [Your Store] but found [Contact Us]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:629)\r\n\tat org.testng.Assert.assertEquals(Assert.java:639)\r\n\tat Stepdefs.PhoneNavigation.user_should_be_navigated_to_Contact_us_webpage_after_clicking_on_phone_number_from_header(PhoneNavigation.java:105)\r\n\tat ✽.user should be navigated to Contact us webpage after clicking on phone number from header(file:src/test/resources/Features/PhoneNavigation.feature:16)\r\n",
+              "duration": 7967300,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "user should be navigated to Contact us webpage after clicking on phone number from header",
+            "match": {
+              "location": "PhoneNavigation.user_should_be_navigated_to_Contact_us_webpage_after_clicking_on_phone_number_from_header()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Navigation functionality of phone number And phone icon",
+    "description": "Description: This feature will check that whether a user is able to navigate to Contact Us webpage",
+    "id": "navigation-functionality-of-phone-number-and-phone-icon",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/PhoneNavigation.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User is logged in \u0026 user is on home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 77800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has valid URL of website",
+            "match": {
+              "location": "PhoneNavigation.user_has_valid_URL_of_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1868212700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters URL of website in Google Chrome browser \u0026 press enter",
+            "match": {
+              "location": "PhoneNavigation.user_enters_URL_of_website_in_Google_Chrome_browser_press_enter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4149900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be on home page",
+            "match": {
+              "location": "PhoneNavigation.user_should_be_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95291100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on My Account dropdown list from header",
+            "match": {
+              "location": "LoginRegisterNavigate.user_clicks_on_My_Account_dropdown_list_from_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61591700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should able to see Login option in dropdown list",
+            "match": {
+              "location": "MyAccountNavigate.user_should_able_to_see_Login_option_in_dropdown_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1347555500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on Login option from dropdown list",
+            "match": {
+              "location": "MyAccountNavigate.user_clicks_on_Login_option_from_dropdown_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1352958100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters login credentials from excel sheet",
+            "match": {
+              "location": "MyAccountNavigate.user_enters_login_credentials_from_excel_sheet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2488409200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicks on Login button",
+            "match": {
+              "location": "MyAccountNavigate.clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4545000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should be logged in",
+            "match": {
+              "location": "MyAccountNavigate.user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1352230700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on logo of website in header",
+            "match": {
+              "location": "Slideshow.user_clicks_on_logo_of_website_in_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8055400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should be on home page",
+            "match": {
+              "location": "PhoneNavigation.user_should_be_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-16T17:52:08.305Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1516806100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "verify that user should be able to view slideshow of product banners on home page",
+        "description": "",
+        "id": "slideshow-of-product-banners-on-home-page;verify-that-user-should-be-able-to-view-slideshow-of-product-banners-on-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 3756157200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 65429000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user looks for slideshow of alternating images of product banners on home page",
+            "match": {
+              "location": "Slideshow.user_looks_for_slideshow_of_alternating_images_of_product_banners_on_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3308182400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should finds slideshow of alternating images of product banners on home page",
+            "match": {
+              "location": "Slideshow.user_should_finds_slideshow_of_alternating_images_of_product_banners_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSix"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is logged in \u0026 user is on home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 83500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has valid URL of website",
+            "match": {
+              "location": "PhoneNavigation.user_has_valid_URL_of_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5117475000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters URL of website in Google Chrome browser \u0026 press enter",
+            "match": {
+              "location": "PhoneNavigation.user_enters_URL_of_website_in_Google_Chrome_browser_press_enter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18874600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be on home page",
+            "match": {
+              "location": "PhoneNavigation.user_should_be_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84656100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on My Account dropdown list from header",
+            "match": {
+              "location": "LoginRegisterNavigate.user_clicks_on_My_Account_dropdown_list_from_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70284400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should able to see Login option in dropdown list",
+            "match": {
+              "location": "MyAccountNavigate.user_should_able_to_see_Login_option_in_dropdown_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1321153700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on Login option from dropdown list",
+            "match": {
+              "location": "MyAccountNavigate.user_clicks_on_Login_option_from_dropdown_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 647058500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters login credentials from excel sheet",
+            "match": {
+              "location": "MyAccountNavigate.user_enters_login_credentials_from_excel_sheet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2362928600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicks on Login button",
+            "match": {
+              "location": "MyAccountNavigate.clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5239600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should be logged in",
+            "match": {
+              "location": "MyAccountNavigate.user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2936529800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on logo of website in header",
+            "match": {
+              "location": "Slideshow.user_clicks_on_logo_of_website_in_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7126900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should be on home page",
+            "match": {
+              "location": "PhoneNavigation.user_should_be_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-16T17:52:25.538Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1438866200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "verify that user should not be able to view slideshow of product banners on My Account webpage",
+        "description": "",
+        "id": "slideshow-of-product-banners-on-home-page;verify-that-user-should-not-be-able-to-view-slideshow-of-product-banners-on-my-account-webpage",
+        "after": [
+          {
+            "result": {
+              "duration": 3802964900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PhoneNavigation.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 93239800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks on My Account dropdown list from header",
+            "match": {
+              "location": "LoginRegisterNavigate.user_clicks_on_My_Account_dropdown_list_from_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should be able to view My Account option in My Account dropdown list",
+            "match": {
+              "location": "Slideshow.user_should_be_able_to_view_My_Account_option_in_My_Account_dropdown_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1315413700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks on My Account option from My Account dropdown list",
+            "match": {
+              "location": "MyAccountNavigate.user_clicks_on_My_Account_option_from_My_Account_dropdown_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user should be navigated to My Account page",
+            "match": {
+              "location": "Slideshow.user_should_be_navigated_to_My_Account_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10086691600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user looks for slideshow of alternating images of product banners on My Account page",
+            "match": {
+              "location": "Slideshow.user_looks_for_slideshow_of_alternating_images_of_product_banners_on_My_Account_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 166269600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user should unable to find slideshow of product banners on My Account page",
+            "match": {
+              "location": "Slideshow.user_should_unable_to_find_slideshow_of_product_banners_on_My_Account_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1478419600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks on Shopping Cart option from header",
+            "match": {
+              "location": "Slideshow.user_clicks_on_Shopping_Cart_option_from_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5849100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user should be navigated to Shopping Cart page",
+            "match": {
+              "location": "Slideshow.user_should_be_navigated_to_Shopping_Cart_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10021797800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user looks for slideshow of alternating images of product banners on Shopping Cart page",
+            "match": {
+              "location": "Slideshow.user_looks_for_slideshow_of_alternating_images_of_product_banners_on_Shopping_Cart_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146808000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user should unable to find slideshow of product banners on Shopping Cart page",
+            "match": {
+              "location": "Slideshow.user_should_unable_to_find_slideshow_of_product_banners_on_Shopping_Cart_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1282694900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks on Wish List option from header",
+            "match": {
+              "location": "Slideshow.user_clicks_on_Wish_List_option_from_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11098900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user should be navigated to My Wish List page",
+            "match": {
+              "location": "Slideshow.user_should_be_navigated_to_My_Wish_List_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10053705100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user looks for slideshow of alternating images of product banners on My Wish List page",
+            "match": {
+              "location": "Slideshow.user_looks_for_slideshow_of_alternating_images_of_product_banners_on_My_Wish_List_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154500600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user should unable to find slideshow of product banners on My Wish list page",
+            "match": {
+              "location": "Slideshow.user_should_unable_to_find_slideshow_of_product_banners_on_My_Wish_list_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1330652300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user clicks on phone icon from header",
+            "match": {
+              "location": "PhoneNavigation.user_clicks_on_phone_icon_from_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4517700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user should be navigated to Contact Us page",
+            "match": {
+              "location": "Slideshow.user_should_be_navigated_to_Contact_Us_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10069062900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user looks for slideshow of alternating images of product banners on Contact Us page",
+            "match": {
+              "location": "Slideshow.user_looks_for_slideshow_of_alternating_images_of_product_banners_on_Contact_Us_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155645400,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user should unable to find slideshow of product banners on Contact Us page",
+            "match": {
+              "location": "Slideshow.user_should_unable_to_find_slideshow_of_product_banners_on_Contact_Us_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSix"
+          }
+        ]
+      }
+    ],
+    "name": "Slideshow of product banners on home page",
+    "description": "Description: This feature will confirm whether the slideshow of product banners can be viewed on home page only",
+    "id": "slideshow-of-product-banners-on-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Slideshow.feature",
+    "tags": [
+      {
+        "name": "@TestSix",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

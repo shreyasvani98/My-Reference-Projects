@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="245.294253">
+    <testcase classname="Browse functionality of product banners" name="verify that user is able to view left &amp; right arrow icons after hovering mouse over the slideshow of product banners &amp; browse product banners" time="28.81155">
+        <system-out>
+            <![CDATA[Given user has valid URL of website.........................................passed
+When user enters URL of website in Google Chrome browser & press enter......passed
+Then user should be on home page............................................passed
+When user hovers mouse over slideshow of product banners....................passed
+Then user should be able to view left & right arrow icons in left & right sections in slideshow respectively.passed
+When user clicks on left arrow icon in left section in slideshow of product banners.passed
+Then user should be able to view product banner behind the current product banner in slideshow of product banners.passed
+When user clicks on right arrow icon in right section in slideshow of product banners.passed
+Then user should be able to view product banner ahead of the current product banner in slideshow of product banners.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Browse functionality of product banners" name="verify that user is able to browse different product banners after clicking on carousel-indicators that is filled circles down the slideshow of product banners" time="16.203433">
+        <system-out>
+            <![CDATA[Given user has valid URL of website.........................................passed
+When user enters URL of website in Google Chrome browser & press enter......passed
+Then user should be on home page............................................passed
+When user clicks on second carousel-indicator that is second filled circle down the slideshow of product banners.passed
+Then user should be able to browse second product banner....................passed
+When user clicks on first carousel-indicator that is first filled circle down the slideshow of product banners.passed
+Then user should be able to browse first product banner.....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Links of phone icon, My Account, Wish List, Shopping Cart &amp; Checkout in header" name="verify that user should be able to view phone icon, My Account, Wish List, Shopping Cart &amp; Checkout in header" time="12.794095">
+        <system-out>
+            <![CDATA[Given user has valid URL of website.........................................passed
+When user enters URL of website in Google Chrome browser & press enter......passed
+Then user should be on home page............................................passed
+When user looks for phone icon in header....................................passed
+Then user should find phone icon in header..................................passed
+When user looks for My Account dropdown list in header......................passed
+Then user should find My Account dropdown list in header....................passed
+When user looks for Wish List option in header..............................passed
+Then user should find Wish List option in header............................passed
+When user looks for Shopping Cart option in header..........................passed
+Then user should find Shopping Cart option in header........................passed
+When user looks for Checkout option in header...............................passed
+Then user should find Checkout option in header.............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Navigation functionality of Login &amp; Register of My Account dropdown list" name="verify that user should be able to navigate to Register page &amp; Login page after clicking on Register &amp; Login options from My Account dropdown list respectively" time="9.490257">
+        <system-out>
+            <![CDATA[Given user has valid URL of website.........................................passed
+When user enters URL of website in Google Chrome browser & press enter......passed
+Then user should be on home page & user has not logged in...................passed
+When user clicks on My Account dropdown list from header....................passed
+Then user should able to see Login & Register options in dropdown list......passed
+When user clicks on Register option from My Account dropdown list...........passed
+Then user should be navigated to Register Account page......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Navigation functionality of Login &amp; Register of My Account dropdown list" name="verify that user should be able to navigate to Account Login webpage after clicking on Login option from My Account dropdown list" time="9.317068">
+        <system-out>
+            <![CDATA[Given user has valid URL of website.........................................passed
+When user enters URL of website in Google Chrome browser & press enter......passed
+Then user should be on home page & user has not logged in...................passed
+When user clicks on My Account dropdown list from header....................passed
+Then user should able to see Login & Register options in dropdown list......passed
+When user clicks on Login option from My Account dropdown list..............passed
+Then user should be navigated to Account Login page.........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Navigation funtionality of My Account, Order history, Transations, Downloads, Logout of My Account dropdown list" name="verify that user should be able to navigate to correct webpage after clicking on that particular option from dropdown list" time="72.094667">
+        <system-out>
+            <![CDATA[Given user has valid URL of website.........................................passed
+When user enters URL of website in Google Chrome browser & press enter......passed
+Then user should be on home page............................................passed
+When user clicks on My Account dropdown list from header....................passed
+Then user should able to see Login option in dropdown list..................passed
+And user clicks on Login option from dropdown list..........................passed
+When user enters login credentials..........................................passed
+And clicks on Login button..................................................passed
+Then user should be logged in...............................................passed
+When user clicks on My Account dropdown list from header....................passed
+Then user should able to view My Account, Order history, Transations, Downloads, Logout options in dropdown list.passed
+When user clicks on My Account option from My Account dropdown list.........passed
+Then user should be navigated to My Account webpage.........................passed
+When user clicks on My Account dropdown list from header....................passed
+Then user should able to view options in dropdown list......................passed
+When user clicks on Order History option from My Account dropdown list......passed
+Then user should be navigated to Order History webpage......................passed
+When user clicks on My Account dropdown list from header....................passed
+Then user should able to view options in dropdown list......................passed
+When user clicks on Transactions option from My Account dropdown list.......passed
+Then user should be navigated to Your Transactions webpage..................passed
+When user clicks on My Account dropdown list from header....................passed
+Then user should able to view options in dropdown list......................passed
+When user clicks on Downloads option from My Account dropdown list..........passed
+Then user should be navigated to Account Downloads webpage..................passed
+When user clicks on My Account dropdown list from header....................passed
+Then user should able to view options in dropdown list......................passed
+When user clicks on Logout option from My Account dropdown list.............passed
+Then user should be navigated to Account Logout webpage.....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Navigation functionality of phone number And phone icon" name="Verify that user should be able to navigate to Contact Us webpage after clicking on phone icon &amp; phone number from header of home page" time="15.162878">
+        <failure message="java.lang.AssertionError: expected [Your Store] but found [Contact Us]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:99)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:1037)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:140)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:122)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:629)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:639)&#13;&#10;&#9;at Stepdefs.PhoneNavigation.user_should_be_navigated_to_Contact_us_webpage_after_clicking_on_phone_number_from_header(PhoneNavigation.java:105)&#13;&#10;&#9;at ✽.user should be navigated to Contact us webpage after clicking on phone number from header(file:src/test/resources/Features/PhoneNavigation.feature:16)&#13;&#10;">
+            <![CDATA[Given user has valid URL of website.........................................passed
+When user enters URL of website in Google Chrome browser & press enter......passed
+Then user should be on home page............................................passed
+When user clicks on phone icon from header..................................passed
+Then user should be navigated to Contact us webpage after clicking on phone icon from header.passed
+When user clicks on logo of website that is Your Store......................passed
+Then user is navigated to Home Page.........................................passed
+When user clicks on phone number from header................................passed
+Then user should be navigated to Contact us webpage after clicking on phone number from header.failed
+
+StackTrace:
+java.lang.AssertionError: expected [Your Store] but found [Contact Us]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at Stepdefs.PhoneNavigation.user_should_be_navigated_to_Contact_us_webpage_after_clicking_on_phone_number_from_header(PhoneNavigation.java:105)
+	at ✽.user should be navigated to Contact us webpage after clicking on phone number from header(file:src/test/resources/Features/PhoneNavigation.feature:16)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Slideshow of product banners on home page" name="verify that user should be able to view slideshow of product banners on home page" time="17.229995">
+        <system-out>
+            <![CDATA[Given user has valid URL of website.........................................passed
+When user enters URL of website in Google Chrome browser & press enter......passed
+Then user should be on home page............................................passed
+When user clicks on My Account dropdown list from header....................passed
+Then user should able to see Login option in dropdown list..................passed
+And user clicks on Login option from dropdown list..........................passed
+When user enters login credentials from excel sheet.........................passed
+And clicks on Login button..................................................passed
+Then user should be logged in...............................................passed
+When user clicks on logo of website in header...............................passed
+Then user should be on home page............................................passed
+When user looks for slideshow of alternating images of product banners on home page.passed
+Then user should finds slideshow of alternating images of product banners on home page.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Slideshow of product banners on home page" name="verify that user should not be able to view slideshow of product banners on My Account webpage" time="64.19031">
+        <system-out>
+            <![CDATA[Given user has valid URL of website.........................................passed
+When user enters URL of website in Google Chrome browser & press enter......passed
+Then user should be on home page............................................passed
+When user clicks on My Account dropdown list from header....................passed
+Then user should able to see Login option in dropdown list..................passed
+And user clicks on Login option from dropdown list..........................passed
+When user enters login credentials from excel sheet.........................passed
+And clicks on Login button..................................................passed
+Then user should be logged in...............................................passed
+When user clicks on logo of website in header...............................passed
+Then user should be on home page............................................passed
+When user clicks on My Account dropdown list from header....................passed
+Then user should be able to view My Account option in My Account dropdown list.passed
+When user clicks on My Account option from My Account dropdown list.........passed
+Then user should be navigated to My Account page............................passed
+When user looks for slideshow of alternating images of product banners on My Account page.passed
+Then user should unable to find slideshow of product banners on My Account page.passed
+When user clicks on Shopping Cart option from header........................passed
+Then user should be navigated to Shopping Cart page.........................passed
+When user looks for slideshow of alternating images of product banners on Shopping Cart page.passed
+Then user should unable to find slideshow of product banners on Shopping Cart page.passed
+When user clicks on Wish List option from header............................passed
+Then user should be navigated to My Wish List page..........................passed
+When user looks for slideshow of alternating images of product banners on My Wish List page.passed
+Then user should unable to find slideshow of product banners on My Wish list page.passed
+When user clicks on phone icon from header..................................passed
+Then user should be navigated to Contact Us page............................passed
+When user looks for slideshow of alternating images of product banners on Contact Us page.passed
+Then user should unable to find slideshow of product banners on Contact Us page.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

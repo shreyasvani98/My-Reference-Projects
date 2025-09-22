@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-16T23:19:23 IST" name="Default suite" finished-at="2021-06-16T23:23:30 IST" duration-ms="246142">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper,io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runner@5d7148e2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-06-16T23:19:23 IST" name="Default test" finished-at="2021-06-16T23:23:30 IST" duration-ms="246142">
+      <class name="Runner.Runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.Runner@5d7148e2]" started-at="2021-06-16T23:19:23 IST" name="setUpClass" finished-at="2021-06-16T23:19:24 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper,io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runner@5d7148e2]" started-at="2021-06-16T23:19:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-16T23:19:53 IST" duration-ms="29007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that user is able to view left & right arrow icons after hovering mouse over the slideshow of product banners & browse product banners"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Browse functionality of product banners"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper,io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runner@5d7148e2]" started-at="2021-06-16T23:19:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-16T23:20:09 IST" duration-ms="16206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that user is able to browse different product banners after clicking on carousel-indicators that is filled circles down the slideshow of product banners"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Browse functionality of product banners"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper,io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runner@5d7148e2]" started-at="2021-06-16T23:20:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-16T23:20:22 IST" duration-ms="12800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that user should be able to view phone icon, My Account, Wish List, Shopping Cart & Checkout in header"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Links of phone icon, My Account, Wish List, Shopping Cart & Checkout in header"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper,io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runner@5d7148e2]" started-at="2021-06-16T23:20:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-16T23:20:31 IST" duration-ms="9492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that user should be able to navigate to Register page & Login page after clicking on Register & Login options from My Account dropdown list respectively"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Navigation functionality of Login & Register of My Account dropdown list"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper,io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runner@5d7148e2]" started-at="2021-06-16T23:20:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-16T23:20:41 IST" duration-ms="9319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that user should be able to navigate to Account Login webpage after clicking on Login option from My Account dropdown list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Navigation functionality of Login & Register of My Account dropdown list"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper,io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runner@5d7148e2]" started-at="2021-06-16T23:20:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-16T23:21:53 IST" duration-ms="72100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that user should be able to navigate to correct webpage after clicking on that particular option from dropdown list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Navigation funtionality of My Account, Order history, Transations, Downloads, Logout of My Account dropdown list"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper,io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runner@5d7148e2]" started-at="2021-06-16T23:21:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-16T23:22:08 IST" duration-ms="15168" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user should be able to navigate to Contact Us webpage after clicking on phone icon & phone number from header of home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Navigation functionality of phone number And phone icon"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Your Store] but found [Contact Us]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Your Store] but found [Contact Us]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Stepdefs.PhoneNavigation.user_should_be_navigated_to_Contact_us_webpage_after_clicking_on_phone_number_from_header(PhoneNavigation.java:105)
+at ✽.user should be navigated to Contact us webpage after clicking on phone number from header(file:src/test/resources/Features/PhoneNavigation.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper,io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runner@5d7148e2]" started-at="2021-06-16T23:22:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-16T23:22:25 IST" duration-ms="17232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that user should be able to view slideshow of product banners on home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Slideshow of product banners on home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper,io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.Runner@5d7148e2]" started-at="2021-06-16T23:22:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-16T23:23:29 IST" duration-ms="64193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that user should not be able to view slideshow of product banners on My Account webpage"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Slideshow of product banners on home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Runner@5d7148e2]" started-at="2021-06-16T23:23:29 IST" name="tearDownClass" finished-at="2021-06-16T23:23:30 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
